@@ -23,7 +23,7 @@ public class Person {
       count++;
    }
   
-  public int count() {
+   public int count() {
       return count;
    }
    
@@ -41,6 +41,10 @@ public class Person {
       }
       age = a;
    }  
+   
+   public void setSalary(double s) {
+      salary = s;
+   }
   
    public String getName() {
       return name;

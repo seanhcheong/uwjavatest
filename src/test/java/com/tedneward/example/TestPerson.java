@@ -87,7 +87,7 @@ public class TestPerson {
     assertEquals(new Person("Matthew", 15, 0), people.get(3));
   }
   
-  @Test
+  @Test        
   public void catchPropertyChange() {
     Person ted = new Person("Ted", 43, 250000);
     ted.addPropertyChangeListener(new PropertyChangeListener() {
