@@ -1,3 +1,6 @@
+// Sean Cheong
+// Person.java
+
 package com.tedneward.example;
 
 import java.beans.*;
